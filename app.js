@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 
 app.listen(3000, function () {
-    console.log("server is working!");
+    console.log("サーバが起動しました");
 })
 
 app.get('/', function (request, response, next) {
